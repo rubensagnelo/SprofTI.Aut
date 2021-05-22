@@ -1,3 +1,3 @@
 dotnet clean
 dotnet build
-dotnet publish -c Release -o out
+dotnet publish -c Release -o out 
