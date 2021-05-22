@@ -13,9 +13,11 @@ Para deploy/execução do Aplicação de geração de token jwt seguir os seguit
 - Clonar a solução do GitHub ou extrair o zip recebido.
 - Abrir solução no VS Code. Deverá ser aberta na pasta "raiz" onde foi extraida a solução clonada
 - Executar o arquivo buildandRun.bat ou os seguintes comandos a partir da pasta SprofTI.Aut\
-dotnet clean
-dotnet build
-dotnet run
+    dotnet clean  src\SProfTIAPI
+    dotnet restore src\SProfTIAPI
+    dotnet build src\SProfTIAPI
+    dotnet run
+    
 Executar no postman -(verbo Post) http://localhost:5005/Users/Authenticate  para obter o token jwt
 Obs: Autenticar no corpo da requisição com o usuário Username = "maria", Password = "bonita" conforme o json abaixo que deve ser inserido no "body" da requisição em contexto:
 {
