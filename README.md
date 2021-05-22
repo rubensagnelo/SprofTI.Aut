@@ -17,7 +17,14 @@ dotnet clean
 dotnet build
 dotnet run
 Executar no postman -(verbo Post) http://localhost:5005/Users/Authenticate  para obter o token jwt
+Obs: Autenticar no corpo da requisição com o usuário Username = "maria", Password = "bonita" conforme o json abaixo que deve ser inserido no "body" da requisição em contexto:
+{
+    "Username": "maria",
+    "Password":"bonita"
+}
+
 Executar no postman -(verbo get) http://localhost:5005/Users/TestAutorize  para realizar um teste de autorização
+
 
 Obs:O tempo de expiração está valodo para 120 seg no arquivo SprofTI.Aut\Services\UserService.cs
 
