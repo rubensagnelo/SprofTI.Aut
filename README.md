@@ -21,7 +21,7 @@ dotnet clean
 dotnet build
 dotnet run
 Executar no postman -(verbo Post) http://localhost:5005/Users/Authenticate  para obter o token jwt
-Executar no postman -(verbo get) http://localhost:4000/Users/TestAutorize  para realizar um teste de autorização
+Executar no postman -(verbo get) http://localhost:5005/Users/TestAutorize  para realizar um teste de autorização
 
 Obs:O tempo de expiração está valodo para 120 seg no arquivo SprofTI.Aut\Services\UserService.cs
 
