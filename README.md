@@ -1,4 +1,4 @@
-# SprofTI.Aut - Aplicação para geração de Token jwt
+# SprofTI.Aut - Aplicação para geração de Token jwt para consumo da API SprofTI(https://github.com/rubensagnelo/SProfTIAPI)
 
 ASP.NET Core 3.1 - JWT Authentication API
 
